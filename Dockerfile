@@ -28,8 +28,6 @@ RUN npm install -g nodemon
 # Copy application code
 COPY --link . .
 
-
-
 # Final stage for app image
 FROM base
 
